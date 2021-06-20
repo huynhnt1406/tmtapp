@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.signups{
+    display: flex;
+    font-family: 'Montserrat',sans-serif;
+    color:white;
+    min-height: 50vh;
+    position: relative;
+    background-image: url('https://image.winudf.com/v2/image/Y29tLlBSSVNTSS5XYWxscGFwZXIuYmFja2dyb3VuZC5CYWNrZ3JvdW5kR3JlZW5XYWxscGFwZXJfc2NyZWVuXzBfMTUyODIwNDE4OF8wNzA/screen-0.jpg?fakeurl=1&type=.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+.condition-title{
+    flex:0.6;
+}
+.condition-title  h3{
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    margin:5vh;
+    letter-spacing: 5px;
+}
+.condition-title h1{
+    font-size: 80px;
+    background: -webkit-linear-gradient(lightgreen, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid darkgreen;
+    margin:5vh;
+    letter-spacing: 5px;
+}
+.condition-type{
+    flex:0.4;
+    padding:5vh;
+    color:white;
+}
+.condition-h4{
+    font-size: 100px;
+}

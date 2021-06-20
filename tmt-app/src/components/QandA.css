@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.qanda{
+    display: flex;
+    font-family: 'Montserrat',sans-serif;
+    flex-direction: column;
+    min-height: 200vh;
+    text-align: center;
+}
+.qanda h1{
+    font-size: 50px;
+    color:#34A84A;
+    margin:3vh;
+    padding-bottom:10px;
+}
+.questiontype1{
+    display: flex;
+    padding:20px;
+    border:3px solid forestgreen;
+    color:green;
+    position: relative;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+.answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:5vh;
+}
